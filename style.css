@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #273b69;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*//*center vote_average*/
+    justify-content: center;
+
+}
+
+h1 {
+    color: #eee;
+    text-align: center;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.movie {
+    background-color: #373b69;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    margin: 1.8rem;
+    width: 240px;
+    
+}
+
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    color: #eee;
+    display: flex;
+    align-items: center;/*center vote_average*/
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.7rem; /*
+    /*padding: 25px 50px 75px 100px;
+        top padding is 25px
+        right padding is 50px
+        bottom padding is 75px
+        left padding is 100px*/
+    /*padding: 25px 50px 75px;
+        top padding is 25px
+        right and left paddings are 50px
+        bottom padding is 75px*/
+    /*padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;*/
+
+    letter-spacing: 0.5px;
+}
+
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.movie-info span {
+    background-color: #22254b;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
